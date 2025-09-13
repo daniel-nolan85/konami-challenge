@@ -36,7 +36,7 @@ cd konami-challenge
 
 npm install
 
-# or
+or
 
 yarn install
 
@@ -44,7 +44,7 @@ yarn install
 
 npm run dev
 
-# or
+or
 
 yarn dev
 
