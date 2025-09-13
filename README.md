@@ -55,6 +55,7 @@ The app should now be running at http://localhost:5173.
 For the purposes of this challenge, the app includes a mock login system. You can use the following credentials to log in:
 
 Username: user
+
 Password: test123
 
 Upon successful login, you will be redirected to the tasks page.
@@ -64,23 +65,6 @@ Upon successful login, you will be redirected to the tasks page.
 - Add a task: Type in the input field at the bottom and click Add. Empty tasks are not allowed.
 - Edit a task: Click on the task text to enter edit mode, make changes, and click Save. Empty edits are not allowed.
 - Delete a task: Click Delete next to a task. You will be asked to confirm before deletion.
-
-# Project Structure
-
-src/
-├─ components/
-│ ├─ LoginForm.tsx
-│ ├─ TaskList.tsx
-│ └─ TaskForm.tsx
-├─ pages/
-│ ├─ Login.tsx
-│ └─ Tasks.tsx
-├─ styles/
-│ ├─ login.styles.css
-│ └─ tasks.styles.css
-├─ App.tsx
-├─ index.css
-└─ main.tsx
 
 # Notes
 
